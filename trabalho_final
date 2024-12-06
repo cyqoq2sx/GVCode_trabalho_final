@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# TROQUE O ENDEREÇO ABAIXO PELO ENDEREÇO ONDE ESTÁ O ARQUIVO CSV NO SEU PC
 df = pd.read_csv(r"C:\Users\leoha\Desktop\trabalho final gvcode\Jan_2019_ontime.csv")
 print(df.isna().sum())
 display(df)
